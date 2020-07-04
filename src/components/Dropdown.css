@@ -1,0 +1,87 @@
+button, li {
+    cursor: pointer;
+}
+
+.dropdown-button {
+    padding: 20px;
+    width: 300px;
+    background-color: #FFF;
+    border: 2px solid #000;
+    border-radius: 0;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.dropdown-header{
+    margin:auto;
+}
+
+.dropdown-body {
+    border: 2px solid #000;
+    border-top: none;
+    margin: auto;
+    min-height: 300px;
+    width: 338px;
+}
+
+.add-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.add-item-text {
+    width: 200px;
+    word-break: break-all;
+}
+
+.button-add-item {
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.dropdown-list li {
+    padding: 10px 0;
+    word-break: break-all;
+    width: 100%;
+}
+
+.button-show-more {
+    padding: 10px;
+    background-color: #FFF;
+    width: 100%;
+    border: none;
+}
+
+.search-input {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #000;
+    width: calc(100% - 52px);
+}
+
+.icon {
+     background-size: contain;
+    border: 2px solid #000;
+    border-left: none;
+    padding: 15px 20px 19px;
+}
+
+.icon-chevron-down {
+    background: rgba(0,0,0,0) url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='20'%20width='20'%20viewBox='0,0,20,20'%3E%3Cpath%20d='M13.918,8L10,11.855,6.082,8l-.582.572L10,13l4.5-4.428z'%20fill='%234d4d4d'%20fill-rule='evenodd'%20stroke='%234d4d4d'%20stroke-width='0.5'%3E%3C/path%3E%3C/svg%3E") no-repeat 50% 50%;
+}
+
+.icon-chevron-up {
+    background: rgba(0,0,0,0) url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='20'%20width='20'%20viewBox='0,0,20,20'%3E%3Cpath%20d='M6.082,12.5L10,8.645l3.918,3.855.582-.572L10,7.5l-4.5,4.428z'%20fill='%234d4d4d'%20fill-rule='evenodd'%20stroke='%234d4d4d'%20stroke-width='0.5'%3E%3C/path%3E%3C/svg%3E") no-repeat 50% 50%;
+}
+
+.icon-search {
+    background: rgba(0,0,0,0) url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20height='20'%20width='20'%20viewBox='0,0,20,20'%3E%3Cg%20fill='none'%20fill-rule='evenodd'%20stroke='%234d4d4d'%20stroke-width='1.5'%20transform='translate(2,2)'%3E%3Ccircle%20cx='5.982'%20cy='5.982'%20r='5.982'%3E%3C/circle%3E%3Cpath%20d='M10.107,10.313l4.853,4.853'%20stroke-linecap='round'%3E%3C/path%3E%3C/g%3E%3C/svg%3E") no-repeat 50% 50%;
+}
